@@ -9,8 +9,8 @@ from linebot.models import MessageEvent, ImageMessage, TextMessage, TextSendMess
 app = Flask(__name__)
 
 # 環境変数やシークレットを使って管理すべきですが、仮で記述
-LINE_CHANNEL_ACCESS_TOKEN = 'YOUR_CHANNEL_ACCESS_TOKEN'
-LINE_CHANNEL_SECRET = 'YOUR_CHANNEL_SECRET'
+LINE_CHANNEL_ACCESS_TOKEN = '00KCkQLhlaDFzo5+UTu+/C4A49iLmHu7bbpsfW8iamonjEJ1s88/wdm7Yrou+FazbxY7719UNGh96EUMa8QbsG Bf9K5rDWhJpq8XTxakXRuTM6HiJDSmERbIWfyfRMfscXJPcRyTL6YyGNZxqkYSAQdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_SECRET = '6c12aedc292307f95ccd67e959973761'
 
 line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(LINE_CHANNEL_SECRET)
